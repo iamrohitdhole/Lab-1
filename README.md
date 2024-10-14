@@ -82,12 +82,6 @@ def train(train_input_table, train_view, forecast_function_name):
 - Alpha Vantage API Key: Obtain an API key from Alpha Vantage.
   
 # Steps
-
-- Clone the repository:
-bash
-'''git clone [https://github.com/iamrohitdhole/stock_price_prediction.git]
-   cd stock_price_prediction'''
-
 - Set up Airflow variables:
 - alpha_vantage_api_key: Your Alpha Vantage API key.
 - url: The API request URL template.
