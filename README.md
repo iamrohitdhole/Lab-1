@@ -11,8 +11,6 @@ This project implements a data pipeline that extracts stock data for **Microsoft
   - [ML Forecasting DAG](#ml-forecasting-dag)
 - [How to Run the Project](#how-to-run-the-project)
 - [Snowflake Tables and Views](#snowflake-tables-and-views)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -87,7 +85,7 @@ def train(train_input_table, train_view, forecast_function_name):
 
 - Clone the repository:
 bash
-'''git clone https://github.com/iamrohitdhole/stock_price_prediction.git
+'''git clone [https://github.com/iamrohitdhole/stock_price_prediction.git]
    cd stock_price_prediction'''
 
 - Set up Airflow variables:
